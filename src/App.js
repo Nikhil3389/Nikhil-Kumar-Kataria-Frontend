@@ -1,17 +1,11 @@
-import { useState } from "react";
 import List from "./components/List";
 import Navbar from "./components/Navbar";
 import { items } from "./components/data";
 import "./App.css";
-// import Answer from "./components/Answer";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import Footer from "./components/Footer";
-
 function App() {
-  
-  
-
-  return (
+return (
     <>
       <Router>
         <div className="App">
